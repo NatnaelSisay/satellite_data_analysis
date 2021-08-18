@@ -31,7 +31,7 @@
       "tag": "classify"
     },
     {
-      "filename": "iowa.laz",
+      "filename": "",
       "inputs": [
         "classify"
       ],
@@ -39,7 +39,7 @@
       "type": "writers.las"
     },
     {
-      "filename": "iowa.tif",
+      "filename": "",
       "gdalopts": "tiled=yes,     compress=deflate",
       "inputs": [
         "writerslas"
