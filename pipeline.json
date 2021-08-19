@@ -39,7 +39,7 @@
       "type": "writers.las"
     },
     {
-      "filename": "",
+      "filename": "iowa.tif",
       "gdalopts": "tiled=yes,     compress=deflate",
       "inputs": [
         "writerslas"
