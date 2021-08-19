@@ -8,7 +8,7 @@ def read_json(file_name):
   '''
 
   try:
-    file_path = f'{file_name}'
+    file_path = '../pipeline.json'
     print("File Path : ", file_path)
     with open(file_path, 'r') as json_file:
       data = json.loads(json_file.read())
@@ -22,8 +22,8 @@ def prepare_pipe(bound, us_state='IA_FullState'):
   data = read_json('pipeline.json')
   data['pipeline'][0]['bounds'] = bound
   data['pipeline'][0]['filename'] = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/"+us_state+"/ept.json"
-  data['pipeline'][6]['filename'] = 'data/laz/'+us_state+'.laz'
-  data['pipeline'][7]['filename'] = 'data/tiff/'+us_state+'.tiff'
+  data['pipeline'][6]['filename'] = 'iowa.laz'
+  data['pipeline'][7]['filename'] = 'iowa.tiff'
 
   print("data LInk : " , data['pipeline'][0]['filename'])
   return data
