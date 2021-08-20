@@ -25,8 +25,8 @@ def prepare_pipe(bound, us_state='IA_FullState'):
     data['pipeline'][0]['bounds'] = bound
     data['pipeline'][0]['filename'] = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/"+us_state+"/ept.json"
     
-    data['pipeline'][6]['filename'] = '../data/laz/'+us_state+'.laz'
-    data['pipeline'][7]['filename'] = '../data/tiff/'+us_state+'.tiff'
+    data['pipeline'][6]['filename'] = '../data/las/'+us_state+'.las'
+    data['pipeline'][7]['filename'] = '../data/tif/'+us_state+'.tif'
     
 
     print("data LInk : " , data['pipeline'][0]['filename'])
