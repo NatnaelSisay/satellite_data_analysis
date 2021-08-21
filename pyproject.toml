@@ -2,16 +2,7 @@
 requires = [
     "setuptools>=42",
     "wheel",
-    "geopandas",
-    "imageio",
-    "pandas",
-    "pathlib",
-    "matplotlib",
     "numpy",
-    "laspy",
-    "rasterio",
-    "folium",
-    "shapely",
-    "geoplot"
+    "pandas"
 ]
 build-backend = "setuptools.build_meta"

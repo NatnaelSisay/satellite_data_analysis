@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AgriTech_pkg/__init__.py
+src/AgriTech_pkg/fetchLoad.py
+src/AgriTeck_pkg_NatnaelSisay.egg-info/PKG-INFO
+src/AgriTeck_pkg_NatnaelSisay.egg-info/SOURCES.txt
+src/AgriTeck_pkg_NatnaelSisay.egg-info/dependency_links.txt
+src/AgriTeck_pkg_NatnaelSisay.egg-info/top_level.txt
